@@ -1,0 +1,73 @@
+@import '/src/styles/variables';
+
+.section {
+    max-width: $max-width;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+        url('/assets/background.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: $black-color;
+    border-radius: $border-radius;
+
+    &__image {
+        img {
+            background-color: $principal-color;
+            width: 15rem;
+            height: 15rem;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    &__welcome {
+        text-align: center;
+        &-h3 {
+            font-size: 1.8rem;
+            color: $white-color;
+        }
+        &-h1 {
+            font-size: 2.4rem;
+            line-height: 1.5;
+            color: $principal-color;
+        }
+        &-h4 {
+            font-weight: lighter;
+            line-height: 1.7;
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            color: $white-color;
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .section {
+        &__welcome {
+            text-align: center;
+            max-width: 900px;
+            &-h3 {
+                font-size: 1.8rem;
+            }
+            &-h1 {
+                font-size: 2.4rem;
+                line-height: 1.5;
+            }
+            &-h4 {
+                font-weight: lighter;
+                line-height: 1.7;
+                text-align: center;
+                margin-top: 0.5rem;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

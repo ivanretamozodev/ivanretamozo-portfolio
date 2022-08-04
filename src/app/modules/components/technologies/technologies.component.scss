@@ -1,0 +1,40 @@
+@import '/src/styles/variables';
+
+.section-tec {
+    max-width: $max-width;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: $black-color;
+    border-radius: $border-radius;
+
+    .section-tec__title {
+        color: $principal-color;
+        text-align: center;
+        font-size: 2.4rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .section-icons {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .icon-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__title {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

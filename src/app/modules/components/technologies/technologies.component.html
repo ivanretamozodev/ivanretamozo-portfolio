@@ -1,0 +1,12 @@
+<section class="section-tec">
+    <h2 class="section-tec__title">Tecnologías</h2>
+
+
+    <div class="section-icons">
+        <div class="icon-item" *ngFor="let icon of icons">
+            <img [src]="icon.link" alt="icon.name">
+            <h4 class="icon-item__title">{{icon.name | titlecase}}</h4>
+        </div>
+    </div>
+
+</section>

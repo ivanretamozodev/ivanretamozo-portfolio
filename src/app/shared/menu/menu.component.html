@@ -1,0 +1,16 @@
+<nav class="nav">
+    
+    <div class="nav__item" *ngFor="let icon of menuIcons"> 
+
+            <a
+            [routerLink]="icon.routes" [fragment]="icon.routes"
+            >
+
+                <i class="{{icon.class}}"></i>
+                <span class="nav__item-title">{{icon.name}}</span>
+
+            </a>
+
+    </div>
+   
+</nav>

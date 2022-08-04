@@ -1,0 +1,11 @@
+@import './../styles/variables';
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    max-width: $max-width;
+    display: flex;
+    justify-content: center;
+}

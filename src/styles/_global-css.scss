@@ -1,0 +1,13 @@
+body,
+html {
+    background-color: $grey-color;
+    font-size: 62.5%;
+    color: $white-color;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: $white-color;
+    text-decoration: none;
+}

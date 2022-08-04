@@ -1,0 +1,23 @@
+<div class="portfolio">
+    <h2 class="portfolio__title">Portafolio</h2>
+
+    <div class="card__container">
+        <div *ngFor="let card of cards" class="card">
+            <div class="card-image">
+                <img [src]="card.img" alt="" />
+            </div>
+            <h2 class="card-title">{{ card.title }}</h2>
+            <div class="card-content">
+                <p>{{ card.desc }}</p>
+            </div>
+            <div class="card-tecnologies">
+                <div class="card-tecnologies__item"></div>
+            </div>
+
+            <div class="card-buttons">
+                <button class="btn"><a [href]="card.demoLink">ir a</a></button>
+                <button class="btn btn-active">demo</button>
+            </div>
+        </div>
+    </div>
+</div>
