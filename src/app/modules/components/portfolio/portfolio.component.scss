@@ -45,6 +45,7 @@
             &-image {
                 img {
                     width: 100%;
+                    height: 150px;
                     border-radius: $border-radius;
                     object-fit: cover;
                 }
@@ -63,6 +64,7 @@
                 border-radius: $border-radius;
                 border: none;
                 cursor: pointer;
+                font-size: 1.4rem;
             }
 
             .btn-active {

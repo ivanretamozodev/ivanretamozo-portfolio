@@ -15,5 +15,5 @@ export interface cardProyects {
     img: string;
     desc: string;
     demoLink: string;
-    deployLink: string;
+    repoLink: string;
 }

@@ -10,13 +10,14 @@
             <div class="card-content">
                 <p>{{ card.desc }}</p>
             </div>
-            <div class="card-tecnologies">
-                <div class="card-tecnologies__item"></div>
-            </div>
 
             <div class="card-buttons">
-                <button class="btn"><a [href]="card.demoLink">ir a</a></button>
-                <button class="btn btn-active">demo</button>
+                <a [href]="card.repoLink" target="_blank">
+                    <button class="btn">Repositorio</button>
+                </a>
+                <a [href]="card.demoLink" target="_blank">
+                    <button class="btn btn-active">Ver Demo</button>
+                </a>
             </div>
         </div>
     </div>
