@@ -9,9 +9,9 @@ import { ContactComponent } from './modules/components/contact/contact.component
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'technologies', component: TechnologiesComponent },
-    { path: 'portfolio', component: PortfolioComponent },
-    { path: 'contacts', component: ContactComponent },
+    { path: '', component: TechnologiesComponent },
+    { path: '', component: PortfolioComponent },
+    { path: '', component: ContactComponent },
     { path: '**', redirectTo: '' },
 ];
 
