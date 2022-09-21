@@ -15,7 +15,7 @@
     border-radius: $border-radius;
 
     .uil {
-        font-size: 24px;
+        font-size: 2.3rem;
     }
     a {
         color: $white-color;
@@ -27,14 +27,10 @@
         flex-grow: 1;
         cursor: pointer;
 
-        &-title {
-            font-size: 1.1rem;
-            color: $principal-color;
+        .nav__item-title {
+            font-size: 1.2rem;
+            color: $white-color;
         }
-    }
-
-    .active {
-        border-top: 1px solid var(--primary-color);
     }
 }
 

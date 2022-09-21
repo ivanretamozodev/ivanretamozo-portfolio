@@ -4,7 +4,7 @@ export interface Icons {
     class?: string;
 }
 
-export interface menuIcons {
+export interface navbarIcons {
     class: string;
     name: string;
     routes: string;
