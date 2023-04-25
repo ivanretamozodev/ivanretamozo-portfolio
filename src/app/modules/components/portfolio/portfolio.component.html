@@ -12,11 +12,14 @@
             </div>
 
             <div class="card-buttons">
-                <a [href]="card.repoLink" target="_blank">
-                    <button class="btn">Repositorio</button>
+                <a *ngIf="card.backendLink" [href]="card.backendLink" target="_blank">
+                    <button class="btn">Repositorio backend</button>
+                </a>
+                <a [href]="card.frontendLink" target="_blank">
+                    <button class="btn">Repositorio Frontend</button>
                 </a>
                 <a [href]="card.demoLink" target="_blank">
-                    <button class="btn btn-active">Ver Demo</button>
+                    <button class="btn btn-active">Ver Demostración</button>
                 </a>
             </div>
         </div>

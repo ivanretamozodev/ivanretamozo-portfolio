@@ -9,6 +9,4 @@ import { CARD_MOCK } from '../../mocks/card.mock';
 })
 export class PortfolioComponent {
     cards: cardProyects[] = CARD_MOCK;
-
-    constructor() {}
 }

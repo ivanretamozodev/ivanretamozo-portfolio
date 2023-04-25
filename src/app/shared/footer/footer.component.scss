@@ -1,0 +1,19 @@
+@import '/src/styles/variables';
+
+.footer {
+    max-width: $max-width;
+    background-color: $black-color;
+    border-radius: $border-radius;
+    margin: 1rem;
+    padding: 1rem;
+    p {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .footer {
+        border-bottom: 7rem;
+    }
+}
